@@ -117,14 +117,14 @@
   }
 
   // End of TABLE
-  // !Not working
+  
   &.ad-sm table>thead>tr>th,
   &.ad-sm table>tbody>tr>th,
   &.ad-sm table>tfoot>tr>th,
   &.ad-sm table>thead>tr>td,
   &.ad-sm table>tbody>tr>td,
   &.ad-sm table>tfoot>tr>td {
-    padding: 5px;
+    padding: 5px !important;
   }
 
   &.ad-strip>table>tbody>tr:nth-of-type(odd) {

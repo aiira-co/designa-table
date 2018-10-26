@@ -83,7 +83,7 @@
   .ad-table table .table > tfoot > tr.active > th {
     background-color: #f5f5f5; }
 .ad-table.ad-sm table > thead > tr > th, .ad-table.ad-sm table > tbody > tr > th, .ad-table.ad-sm table > tfoot > tr > th, .ad-table.ad-sm table > thead > tr > td, .ad-table.ad-sm table > tbody > tr > td, .ad-table.ad-sm table > tfoot > tr > td {
-  padding: 5px; }
+  padding: 5px !important; }
 .ad-table.ad-strip > table > tbody > tr:nth-of-type(odd) {
   background-color: rgba(0, 0, 0, 0.1); }
 .ad-table.ad-hover > table > tbody tr:hover {
