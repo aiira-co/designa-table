@@ -1,0 +1,12 @@
+/*
+   ** Web Designa Table
+   ** Author: Kofi Owusu-Afriyie
+   **Version: 2.5.0
+
+*/
+/* BASE-- base, variables, mixins, normalize */
+@import '../../../designa-core/dist/scss/core/_variables.scss';
+@import '../../../designa-core/dist/scss/core/_mixins.scss';
+// table
+@import 'table/_table.scss';
+@import 'table/_responsive.scss';
