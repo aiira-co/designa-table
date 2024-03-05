@@ -1,6 +1,6 @@
 //Table
-.ad-table {
-  .ad-header {
+.#{$classPrefix}-table {
+  .#{$classPrefix}-header {
     height: 56px; // background: red;
     // take off shadows by default
     box-shadow: none;
@@ -12,7 +12,7 @@
     }
   }
 
-  .ad-footer {
+  .#{$classPrefix}-footer {
     height: 48px;
   }
 
@@ -40,7 +40,7 @@
         text-align: right;
       }
 
-      .ad-checkbox {
+      .#{$classPrefix}-checkbox {
         top: 8px;
       }
 
@@ -48,13 +48,13 @@
         text-align: right;
         padding: 0 !important;
 
-        .ad-btn {
+        .#{$classPrefix}-btn {
           // margin:0;
           margin-top: 8px; // color:red;
         }
       }
 
-      .ad-icon-letter {
+      .#{$classPrefix}-icon-letter {
         background-color: $dark;
         border-radius: 50%;
         color: white;
@@ -118,21 +118,21 @@
 
   // End of TABLE
   
-  &.ad-sm table>thead>tr>th,
-  &.ad-sm table>tbody>tr>th,
-  &.ad-sm table>tfoot>tr>th,
-  &.ad-sm table>thead>tr>td,
-  &.ad-sm table>tbody>tr>td,
-  &.ad-sm table>tfoot>tr>td {
+  &.#{$classPrefix}-sm table>thead>tr>th,
+  &.#{$classPrefix}-sm table>tbody>tr>th,
+  &.#{$classPrefix}-sm table>tfoot>tr>th,
+  &.#{$classPrefix}-sm table>thead>tr>td,
+  &.#{$classPrefix}-sm table>tbody>tr>td,
+  &.#{$classPrefix}-sm table>tfoot>tr>td {
     padding: 5px !important;
   }
 
-  &.ad-strip>table>tbody>tr:nth-of-type(odd) {
+  &.#{$classPrefix}-strip>table>tbody>tr:nth-of-type(odd) {
     background-color: rgba(black, 0.1);
   }
 
   // !Not working
-  &.ad-hover>table>tbody {
+  &.#{$classPrefix}-hover>table>tbody {
     tr:hover {
       background-color: #f5f5f5;
     }
@@ -145,4 +145,6 @@
       background-color: #e8e8e8;
     }
   }
+
+
 }

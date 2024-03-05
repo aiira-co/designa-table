@@ -1,5 +1,5 @@
 @media screen and (max-width: 767px) {
-  .ad-table table {
+  .#{$classPrefix}-table table {
     width: 100%;
     margin-bottom: 15px;
     overflow-y: hidden;
@@ -7,7 +7,7 @@
     // border: 1px solid #ddd;
   }
 
-  .ad-table table>table {
+  .#{$classPrefix}-table table>table {
     margin-bottom: 0;
   }
 }

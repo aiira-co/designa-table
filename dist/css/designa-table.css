@@ -6,60 +6,64 @@
 */
 /* BASE-- base, variables, mixins, normalize */
 :root {
-  --pure-designa-primary-rgb: 33, 150, 243;
-  --pure-designa-onprimary-rgb: 255, 255, 255;
-  --pure-designa-surface-rgb: 255, 255, 255;
-  --pure-designa-onsurface-rgb: 0, 0, 0;
+  --designa-primary-rgb: #29d0e9;
+  --designa-secondary-rgb:#ff0066;
+  --designa-font-size: .875rem;
+  --designa-font-color: #575758;
+  --designa-letter-spacing: 0.03em;
+  --designa-letter-spacing: 0.03em;
+  --designa-surface-rgb: 255, 255, 255;
+  --designa-onsurface-rgb: 0, 0, 0;
 }
 
 /* COLORS PRESETS  */
 /* COLORS Buttons*/
-.ad-table .ad-header {
+.adx-table .adx-header {
   height: 56px;
   box-shadow: none;
 }
-.ad-table .ad-header .title {
+.adx-table .adx-header .title {
   margin: 16px 16px;
   font-weight: normal;
-  font-size: 18px;
+  font-size: var(--designa-font-size)5;
 }
-.ad-table .ad-footer {
+.adx-table .adx-footer {
   height: 48px;
 }
-.ad-table table {
+.adx-table table {
   width: 100%;
   border-spacing: 0;
   border-collapse: collapse;
   background-color: transparent;
-  font-size: 13px;
+  font-size: var(--designa-font-size);
   min-height: 0.01%;
   overflow-x: auto;
 }
-.ad-table table th,
-.ad-table table td {
+.adx-table table th,
+.adx-table table td {
   padding: 14px 16px !important;
   max-height: 48px !important;
   text-align: left;
 }
-.ad-table table th.num,
-.ad-table table td.num {
+.adx-table table th.num,
+.adx-table table td.num {
   text-align: right;
 }
-.ad-table table th .ad-checkbox,
-.ad-table table td .ad-checkbox {
+.adx-table table th .adx-checkbox,
+.adx-table table td .adx-checkbox {
   top: 8px;
 }
-.ad-table table th.action,
-.ad-table table td.action {
+.adx-table table th.action,
+.adx-table table td.action {
   text-align: right;
   padding: 0 !important;
 }
-.ad-table table th.action .ad-btn,
-.ad-table table td.action .ad-btn {
+.adx-table table th.action .adx-btn,
+.adx-table table td.action .adx-btn {
   margin-top: 8px;
 }
-.ad-table table th .ad-icon-letter,
-.ad-table table td .ad-icon-letter {
+.adx-table table th .adx-icon-letter,
+.adx-table table td .adx-icon-letter {
   background-color: #1c1c1c;
   border-radius: 50%;
   color: white;
@@ -71,83 +75,82 @@
   width: 30px;
   vertical-align: middle;
 }
-.ad-table table > thead > tr > th, .ad-table table > tbody > tr > th, .ad-table table > tfoot > tr > th, .ad-table table > thead > tr > td, .ad-table table > tbody > tr > td, .ad-table table > tfoot > tr > td {
+.adx-table table > thead > tr > th, .adx-table table > tbody > tr > th, .adx-table table > tfoot > tr > th, .adx-table table > thead > tr > td, .adx-table table > tbody > tr > td, .adx-table table > tfoot > tr > td {
   padding: 8px;
   line-height: 1.42857143;
   vertical-align: top;
 }
-.ad-table table > thead > tr > th {
+.adx-table table > thead > tr > th {
   vertical-align: bottom;
   border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
-.ad-table table > tbody > tr {
+.adx-table table > tbody > tr {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-.ad-table table > tbody + tbody {
+.adx-table table > tbody + tbody {
   border-top: 2px solid rgba(0, 0, 0, 0.2);
 }
-.ad-table table table {
+.adx-table table table {
   background-color: rgba(0, 0, 0, 0.15);
 }
-.ad-table table > tbody + tbody {
+.adx-table table > tbody + tbody {
   border-top: 2px solid rgba(0, 0, 0, 0.2);
 }
-.ad-table table .table > thead > tr > td.active,
-.ad-table table .table > tbody > tr > td.active,
-.ad-table table .table > tfoot > tr > td.active,
-.ad-table table .table > thead > tr > th.active,
-.ad-table table .table > tbody > tr > th.active,
-.ad-table table .table > tfoot > tr > th.active,
-.ad-table table .table > thead > tr.active > td,
-.ad-table table .table > tbody > tr.active > td,
-.ad-table table .table > tfoot > tr.active > td,
-.ad-table table .table > thead > tr.active > th,
-.ad-table table .table > tbody > tr.active > th,
-.ad-table table .table > tfoot > tr.active > th {
+.adx-table table .table > thead > tr > td.active,
+.adx-table table .table > tbody > tr > td.active,
+.adx-table table .table > tfoot > tr > td.active,
+.adx-table table .table > thead > tr > th.active,
+.adx-table table .table > tbody > tr > th.active,
+.adx-table table .table > tfoot > tr > th.active,
+.adx-table table .table > thead > tr.active > td,
+.adx-table table .table > tbody > tr.active > td,
+.adx-table table .table > tfoot > tr.active > td,
+.adx-table table .table > thead > tr.active > th,
+.adx-table table .table > tbody > tr.active > th,
+.adx-table table .table > tfoot > tr.active > th {
   background-color: #f5f5f5;
 }
-.ad-table.ad-sm table > thead > tr > th, .ad-table.ad-sm table > tbody > tr > th, .ad-table.ad-sm table > tfoot > tr > th, .ad-table.ad-sm table > thead > tr > td, .ad-table.ad-sm table > tbody > tr > td, .ad-table.ad-sm table > tfoot > tr > td {
+.adx-table.adx-sm table > thead > tr > th, .adx-table.adx-sm table > tbody > tr > th, .adx-table.adx-sm table > tfoot > tr > th, .adx-table.adx-sm table > thead > tr > td, .adx-table.adx-sm table > tbody > tr > td, .adx-table.adx-sm table > tfoot > tr > td {
   padding: 5px !important;
 }
-.ad-table.ad-strip > table > tbody > tr:nth-of-type(odd) {
+.adx-table.adx-strip > table > tbody > tr:nth-of-type(odd) {
   background-color: rgba(0, 0, 0, 0.1);
 }
-.ad-table.ad-hover > table > tbody tr:hover {
+.adx-table.adx-hover > table > tbody tr:hover {
   background-color: #f5f5f5;
 }
-.ad-table.ad-hover > table > tbody > tr > td.active:hover, .ad-table.ad-hover > table > tbody > tr > th.active:hover, .ad-table.ad-hover > table > tbody > tr.active:hover > td, .ad-table.ad-hover > table > tbody > tr:hover > .active, .ad-table.ad-hover > table > tbody > tr.active:hover > th {
+.adx-table.adx-hover > table > tbody > tr > td.active:hover, .adx-table.adx-hover > table > tbody > tr > th.active:hover, .adx-table.adx-hover > table > tbody > tr.active:hover > td, .adx-table.adx-hover > table > tbody > tr:hover > .active, .adx-table.adx-hover > table > tbody > tr.active:hover > th {
   background-color: #e8e8e8;
 }
 
-.ad-table.table-list table {
+.adx-table.table-list table {
   border-collapse: separate;
   border-spacing: 0 10px;
   margin-top: -10px;
 }
-.ad-table.table-list table td {
+.adx-table.table-list table td {
   background-color: #f7f7f7;
 }
-.ad-table.table-list table td:first-child {
+.adx-table.table-list table td:first-child {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-.ad-table.table-list table td:last-child {
+.adx-table.table-list table td:last-child {
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
 }
-.ad-table.table-list table.dark td {
+.adx-table.table-list table.dark td {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
 @media screen and (max-width: 767px) {
-  .ad-table table {
+  .adx-table table {
     width: 100%;
     margin-bottom: 15px;
     overflow-y: hidden;
     -ms-overflow-style: -ms-autohiding-scrollbar;
   }
-
-  .ad-table table > table {
+  .adx-table table > table {
     margin-bottom: 0;
   }
 }
