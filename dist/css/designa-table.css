@@ -8,7 +8,7 @@
 :root {
   --designa-primary-rgb: #29d0e9;
   --designa-secondary-rgb:#ff0066;
-  --designa-font-size: .875rem;
+  --designa-font-size: 1.3rem;
   --designa-font-color: #575758;
   --designa-letter-spacing: 0.03em;
   --designa-letter-spacing: 0.03em;
@@ -23,12 +23,12 @@
   box-shadow: none;
 }
 .adx-table .adx-header .title {
-  margin: 16px 16px;
+  margin: 1.6rem 1.6rem;
   font-weight: normal;
   font-size: var(--designa-font-size)5;
 }
 .adx-table .adx-footer {
-  height: 48px;
+  height: 40.8rem;
 }
 .adx-table table {
   width: 100%;
@@ -41,8 +41,8 @@
 }
 .adx-table table th,
 .adx-table table td {
-  padding: 14px 16px !important;
-  max-height: 48px !important;
+  padding: 14px 1.6rem !important;
+  max-height: 40.8rem !important;
   text-align: left;
 }
 .adx-table table th.num,
@@ -51,7 +51,7 @@
 }
 .adx-table table th .adx-checkbox,
 .adx-table table td .adx-checkbox {
-  top: 8px;
+  top: 0.8rem;
 }
 .adx-table table th.action,
 .adx-table table td.action {
@@ -60,7 +60,7 @@
 }
 .adx-table table th.action .adx-btn,
 .adx-table table td.action .adx-btn {
-  margin-top: 8px;
+  margin-top: 0.8rem;
 }
 .adx-table table th .adx-icon-letter,
 .adx-table table td .adx-icon-letter {
@@ -68,15 +68,15 @@
   border-radius: 50%;
   color: white;
   text-align: center;
-  line-height: 30px;
+  line-height: 3rem;
   display: inline-block;
-  margin-right: 8px;
-  height: 30px;
-  width: 30px;
+  margin-right: 0.8rem;
+  height: 3rem;
+  width: 3rem;
   vertical-align: middle;
 }
 .adx-table table > thead > tr > th, .adx-table table > tbody > tr > th, .adx-table table > tfoot > tr > th, .adx-table table > thead > tr > td, .adx-table table > tbody > tr > td, .adx-table table > tfoot > tr > td {
-  padding: 8px;
+  padding: 0.8rem;
   line-height: 1.42857143;
   vertical-align: top;
 }
@@ -111,7 +111,7 @@
   background-color: #f5f5f5;
 }
 .adx-table.adx-sm table > thead > tr > th, .adx-table.adx-sm table > tbody > tr > th, .adx-table.adx-sm table > tfoot > tr > th, .adx-table.adx-sm table > thead > tr > td, .adx-table.adx-sm table > tbody > tr > td, .adx-table.adx-sm table > tfoot > tr > td {
-  padding: 5px !important;
+  padding: 0.5rem !important;
 }
 .adx-table.adx-strip > table > tbody > tr:nth-of-type(odd) {
   background-color: rgba(0, 0, 0, 0.1);
@@ -146,7 +146,7 @@
 @media screen and (max-width: 767px) {
   .adx-table table {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 10.5rem;
     overflow-y: hidden;
     -ms-overflow-style: -ms-autohiding-scrollbar;
   }

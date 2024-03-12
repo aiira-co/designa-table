@@ -6,14 +6,14 @@
     box-shadow: none;
 
     .title {
-      margin: 16px 16px;
+      margin: 1.6rem 1.6rem;
       font-weight: normal;
       font-size: $baseFontSize + 5;
     }
   }
 
   .#{$classPrefix}-footer {
-    height: 48px;
+    height: 40.8rem;
   }
 
   table {
@@ -32,8 +32,8 @@
 
     th,
     td {
-      padding: 14px 16px !important;
-      max-height: 48px !important;
+      padding: 14px 1.6rem !important;
+      max-height: 40.8rem !important;
       text-align: left;
 
       &.num {
@@ -41,7 +41,7 @@
       }
 
       .#{$classPrefix}-checkbox {
-        top: 8px;
+        top: 0.8rem;
       }
 
       &.action {
@@ -50,7 +50,7 @@
 
         .#{$classPrefix}-btn {
           // margin:0;
-          margin-top: 8px; // color:red;
+          margin-top: 0.8rem; // color:red;
         }
       }
 
@@ -59,11 +59,11 @@
         border-radius: 50%;
         color: white;
         text-align: center;
-        line-height: 30px;
+        line-height: 3.0rem;
         display: inline-block;
-        margin-right: 8px;
-        height: 30px;
-        width: 30px;
+        margin-right: 0.8rem;
+        height: 3.0rem;
+        width: 3.0rem;
         vertical-align: middle;
       }
     }
@@ -74,7 +74,7 @@
     &>thead>tr>td,
     &>tbody>tr>td,
     &>tfoot>tr>td {
-      padding: 8px;
+      padding: 0.8rem;
       line-height: 1.42857143;
       vertical-align: top; // border-top: 1px solid #ddd
     }
@@ -124,7 +124,7 @@
   &.#{$classPrefix}-sm table>thead>tr>td,
   &.#{$classPrefix}-sm table>tbody>tr>td,
   &.#{$classPrefix}-sm table>tfoot>tr>td {
-    padding: 5px !important;
+    padding: 0.5rem !important;
   }
 
   &.#{$classPrefix}-strip>table>tbody>tr:nth-of-type(odd) {
